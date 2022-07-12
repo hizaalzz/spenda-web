@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    height: auto !important;
+    min-height: 100%;
+}
+
+.sidebar {
+    transition: 0.5s;
+    width: 0;
+    /* height: 0; */
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    height: 100vh;
+    padding: 0;
+    z-index: 50;
+}
+
+.sidebar.d-block {
+    transition: 0.5s;
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar.d-block {
+        transition: 0.5s;
+        width: 80%;
+        position: fixed;
+        height: 100vh;
+        padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+        overflow-y: auto;
+    }
+}
+
+.table-bordered {
+    border: 1px solid black;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid black;
+}
+
+input:checked~.radio-check {
+    background-color: #4299e1;
+    border: 0;
+    color: white;
+}
+
+input:checked~.radio-check-label {
+    color: #4299e1;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.kecil {
+    font-size: 15px;
+}
+
+.sedang {
+    font-size: 18px;
+}
+
+.besar {
+    font-size: 20px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee p {
+    animation: marquee 20s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+.disabled {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+#modalEnd.hide {
+    opacity: 0;
+}
+
+#modalEnd.show {
+    opacity: 100;
+}
+
+/* Soal state */
+
+.soal.ragu {
+    color: white;
+    background-color: #d69e2e;
+    border-color: transparent;
+}
+
+
+.soal.answered {
+    background-color: #9ae6b4;
+    color: black;
+    border-color: transparent;
+}
+
+.soal.active {
+    background-color: #4299e1;
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+button>* {
+    pointer-events: none;
+}
+
+.btn-tab.active {
+    border-bottom: 4px solid #63b3ed;
+    color: #63b3ed;
+    font-weight: bold;
+}
+
+table.border td,
+table.border th {
+    border: 1px solid rgb(171, 171, 171);
+}
+
+.nav-show {
+    display: block !important;
+}
+
+.modal-info {
+    transition: opacity 0.25s ease;
+}
+
+body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+}
+
+ol {
+    list-style-type: decimal;
+}

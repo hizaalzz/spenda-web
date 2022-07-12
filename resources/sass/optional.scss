@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.logo-icon {
+    width: 2rem;
+    height: auto;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+td.konten {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.note-editable {
+    color: black !important;
+}
+
+.text-black { 
+    color: black !important;
+}
+
+input:readonly {
+    opacity: 30% !important;
+}
