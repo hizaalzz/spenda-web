@@ -15,10 +15,19 @@ class LevelSeeder extends Seeder
      */
     public function run()
     {
-        $level = new Level();
-        $level->nama = 'Kelas 1';
-        $level->skala = 1;
+        $level1 = new Level();
+        $level1->nama = 'Kelas 1';
+        $level1->skala = 1;
+        $level1->save();
 
-        $level->save();
+        $level2 = new Level();
+        $level2->nama = 'Kelas 2';
+        $level2->skala = 2;
+        $level2->save();
+
+        $level3 = new Level();
+        $level3->nama = 'Kelas 3';
+        $level3->skala = 3;
+        $level3->save();
     }
 }

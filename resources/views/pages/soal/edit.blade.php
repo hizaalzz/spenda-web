@@ -36,13 +36,6 @@
                             <div class="form-group">
                                 {!! Form::textarea('isi', null, ['class' => 'summernote text-black']) !!}
                             </div>
-                            <div class="form-group">
-                                <div>
-                                    <label for="audio">File Audio Pendukung</label>
-                                    <small class="text-danger">(Opsional)</small>
-                                </div>
-                                {!! Form::file('audio', ['class' => 'form-control', 'accept' => 'audio/*']) !!}
-                            </div>
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <h5>{{ $soal->jenis == 1 ? 'Pilihan Ganda' : 'Jawaban Essay' }}</h5>

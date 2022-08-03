@@ -56,10 +56,9 @@
         <div class="w-full text-center tracking-wider mb-0 mt-1">
             <img src="{{ asset('/images/cbt_logo_only.svg') }}" alt="" class="w-20 float-left h-auto">
             <p class="text-sm uppercase">Pemerintah Kota Cirebon</p>
-            <p class="text-sm uppercase">Dinas pendidikan dan kebudayaan</p>
-            <p class="font-semibold text-lg uppercase">SMK CBT-Exam</p>
+            <p class="text-sm uppercase">Sekolah Menengah Pertama Negeri 2 Kota Cirebon</p>
             <p class="text-xs">
-                Jl. Kapten Samadikun No.60, Kesenden, Kec. Kejaksan, Kota Cirebon, Jawa Barat 45121
+                Jl.siliwangi, No. 94, Kebon Baru, Kejaksan, Kota Cirebon, Provinsi Jawa Barat.
             </p>
         </div>
         <hr class="thin mt-4">

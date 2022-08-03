@@ -15,15 +15,6 @@ class BankSoalSeeder extends Seeder
      */
     public function run()
     {
-        $banksoal = new BankSoal();
-
-        $banksoal->opsi_pg = 4;
-        $banksoal->level_id = 1;
-        $banksoal->jurusan_id = 1;
-        $banksoal->matapelajaran_id = 1;
-        $banksoal->guru_id = 2;
-        $banksoal->status = 'Aktif';
-
-        $banksoal->save();
+       
     }
 }

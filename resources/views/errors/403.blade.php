@@ -10,7 +10,6 @@
 
             <h1 class="error-page mt-5"><span>403!</span></h1>
             <h4 class="mb-4 mt-5">Akses tidak di izinkan</h4>
-            <p class="mb-4 w-75 mx-auto">Maaf anda tidak di izinkan mengakses halaman ini</p>
             <a class="btn btn-primary mb-4 waves-effect waves-light" href="{{ route('dashboard') }}">
                 <i class="mdi mdi-home"></i> Kembali ke dashboard
             </a>

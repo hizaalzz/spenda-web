@@ -15,12 +15,6 @@ class PaketSeeder extends Seeder
      */
     public function run()
     {
-        Paket::create([
-            'kode_soal' => 'A',
-        ]);
-
-        Paket::create([
-            'kode_soal' => 'B'
-        ]);
+        
     }
 }

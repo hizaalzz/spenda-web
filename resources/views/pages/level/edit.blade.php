@@ -21,7 +21,7 @@
                     {!! Form::text('nama', null, ['class' => 'form-control', 'placeholder' => 'Nama level', 'required']) !!}
                 </div>
                 <div class="form-group">
-                    <label for="skala">Skala 1-15</label>
+                    <label for="skala">Skala 1-3</label>
                     {!! Form::select('skala', $skala, $level->skala, ['class' => 'form-control', 'required']) !!}
                 </div>
                 <div class="text-center">

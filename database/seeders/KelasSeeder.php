@@ -26,14 +26,14 @@ class KelasSeeder extends Seeder
 
         $kelas2->nama_kelas = 'VIII A';
         $kelas2->jurusan_id = 2;
-        $kelas2->level_id = 1;
+        $kelas2->level_id = 2;
         $kelas2->save();
 
         $kelas2 = new Kelas();
 
         $kelas2->nama_kelas = 'IX A';
         $kelas2->jurusan_id = 3;
-        $kelas2->level_id = 1;
+        $kelas2->level_id = 3;
         $kelas2->save();
     }
 }

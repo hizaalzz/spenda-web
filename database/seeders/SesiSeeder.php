@@ -15,12 +15,6 @@ class SesiSeeder extends Seeder
      */
     public function run()
     {
-        $sesi = new Sesi();
-
-        $sesi->nama = "Sesi 1";
-        $sesi->start = "10:00";
-        $sesi->end = "12:30";
-
-        $sesi->save();
+    
     }
 }

@@ -16,9 +16,16 @@ class MatapelajaranSeeder extends Seeder
     public function run()
     {
         $data = [
+            ['nama' => 'Bahasa Indonesia'],
+            ['nama' => 'Bahasa Inggris'],
+            ['nama' => 'Matematika'],
+            ['nama' => 'Prakarya'],
+            ['nama' => 'PJOK'],
+            ['nama' => 'PKN'],
             ['nama' => 'IPA'],
             ['nama' => 'IPS'],
-            ['nama' => 'Matematika'],
+            
+            
         ];
 
         Matapelajaran::insert($data);

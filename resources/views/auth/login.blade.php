@@ -20,8 +20,8 @@
             {!! Form::open(['route' => 'login', 'method' => 'POST']) !!}
             @csrf
             <div class="form-group">
-                <label for="nis">NISN</label>
-                {!! Form::text('nis', null, ['class' => 'form-control', 'id' => 'nis', 'placeholder' => 'Nomor Induk Siswa Nasional',
+                <label for="nis">NIS</label>
+                {!! Form::text('nis', null, ['class' => 'form-control', 'id' => 'nis', 'placeholder' => 'Nomor Induk Siswa',
                 'required']) !!}
                 @error('nis')
                 <span class="invalid-feedback" role="alert">

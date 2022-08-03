@@ -40,13 +40,13 @@ class AdminSeeder extends Seeder
 
         $guru = new Guru();
 
-        $guru->nama = 'Guru';
-        $guru->nuptk = '123456789';
-        $guru->email = 'guru@gmail.com';
+        $guru->nama = 'Azis Padeli';
+        $guru->nuptk = '2160765667200020';
+        $guru->email = 'azispadeli88@guru.smp.belajar.id';
         $guru->jenis_kelamin = 'L';
         $guru->tempat_lahir = 'Cirebon';
         $guru->tanggal_lahir = Carbon::now();
-        $guru->telp = '021221100';
+        $guru->telp = '08170699127';
 
         if($guru->save()) $adminGenerator->generateAdmin($guru, false,'guru123');
     }

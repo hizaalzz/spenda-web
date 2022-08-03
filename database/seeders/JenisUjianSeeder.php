@@ -16,7 +16,7 @@ class JenisUjianSeeder extends Seeder
     public function run()
     {
         JenisUjian::create([
-            'nama' => 'Tugas'
+            'nama' => 'Ulangan Harian'
         ]);
 
         JenisUjian::create([
