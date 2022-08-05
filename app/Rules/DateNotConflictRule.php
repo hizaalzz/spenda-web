@@ -47,7 +47,7 @@ class DateNotConflictRule implements Rule
                 $start = Carbon::parse($item->tanggal);
                 $end = Carbon::parse($item->tanggal_expire);
 
-                if($now->between($start, $end)) return true;
+                if($now->between($start, $end)) return false;
             }
 
         }
