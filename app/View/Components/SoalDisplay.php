@@ -11,6 +11,8 @@ class SoalDisplay extends Component
      *
      * @return void
      */
+    public $soal;
+
     public function __construct($soal)
     {
         $this->soal = $soal;
