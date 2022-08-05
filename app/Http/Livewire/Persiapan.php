@@ -18,7 +18,7 @@ class Persiapan extends Component
 
     public $tabActive = [
         'pengumuman' => true,
-        'ujian' => false
+        'ujian' => true
     ];
 
     public function render()
