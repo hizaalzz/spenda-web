@@ -111,6 +111,8 @@
             const countdownTimer = setInterval(() => {
                 const countdownTick = countdown(timeEnd);
 
+                console.log(countdownTick);
+
                 if(countdownTick.hours <= 0 && countdownTick.minutes <= 0 && countdownTick.seconds <= 0) {
                     clearInterval(countdownTimer);
 
