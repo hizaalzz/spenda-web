@@ -19,7 +19,6 @@
             <div class="card-body">
                 <p class="card-title-desc">Import data guru dari penyimpanan lokal</p>
                 <span class="mt-4 text-black">
-                    File yang diimport harus memiliki format dan model yang sesuai
                     <a href="{{ asset('/documents/guruformat.xlsx') }}">Download contoh format atau model file</a>
                 </span>
                 <div class="form-group mt-4">
@@ -46,7 +45,6 @@
             <div class="card-body">
                 <p class="card-title-desc">Import data murid dari penyimpanan lokal</p>
                 <span class="mt-4 text-black">
-                    File yang diimport harus memiliki format dan model yang sesuai
                     <a href="{{ asset('/documents/muridformat.xlsx') }}">Download contoh format atau model file</a>
                 </span>
                 <div class="form-group mt-4">

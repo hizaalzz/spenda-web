@@ -54,7 +54,6 @@
 <body>
     <header>
         <div class="w-full text-center tracking-wider mb-0 mt-1">
-            <img src="{{ asset('/images/cbt_logo_only.svg') }}" alt="" class="w-20 float-left h-auto">
             <p class="text-sm uppercase">Pemerintah Kota Cirebon</p>
             <p class="text-sm uppercase">Sekolah Menengah Pertama Negeri 2 Kota Cirebon</p>
             <p class="text-xs">
@@ -86,10 +85,6 @@
                     <tr>
                         <td>Kelas</td>
                         <td>: {{ $item->kelas->nama_kelas }}</td>
-                    </tr>
-                    <tr>
-                        <td>Kompetensi Keahlian</td>
-                        <td>: {{ $item->kelas->jurusan->nama ?? '-' }}</td>
                     </tr>
                 </table>
             </div>

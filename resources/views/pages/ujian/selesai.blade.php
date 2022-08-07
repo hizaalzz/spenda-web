@@ -11,7 +11,7 @@
                         Jangan lupa untuk terus belajar dirumah 
                     </p>
                     <img src="{{ asset('/images/book.svg') }}" alt="" class="md:w-1/2 lg:w-1/2 w-full">
-                    "Barang siapa bersungguh-sungguh, maka dia akan mendapatkan kesuksesan."
+
                     <a href="{{ route('logout') }}" class="btn btn-blue hover:bg-blue-400 my-4">Logout</a>
 
                 </div>

@@ -13,7 +13,6 @@
         <div class="card">
             <div class="card-body">
                 <h3 class="card-title">Tambah Bank Soal</h3>
-                <p class="card-title-desc">Buat bank soal baru</p>
                 {!! Form::open(['route' => 'banksoal.store', 'id' => 'createForm', 'class' => 'outer-repeater']) !!}
                 @csrf
                 <div class="form-group">
