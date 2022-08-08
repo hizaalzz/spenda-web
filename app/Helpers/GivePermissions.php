@@ -4,6 +4,7 @@ namespace App\Helpers;
 
 class GivePermissions {
     
+    //guru permission
     public static function getPermission($userType) 
     {
         if($userType === 'guru') {

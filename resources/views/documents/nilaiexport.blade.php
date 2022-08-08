@@ -55,7 +55,6 @@
 <body>
     <header>
         <div class="w-full text-center tracking-wider mb-0 mt-1">
-            <img src="{{ asset('/images/cbt_logo_only.svg') }}" alt="" class="w-24 float-left h-auto">
             <p class="text-sm uppercase">Pemerintah Kota Cirebon</p>
             <p class="text-sm uppercase">Sekolah Menengah Pertama Negeri 2 Kota Cirebon</p>
             <p class="text-xs">

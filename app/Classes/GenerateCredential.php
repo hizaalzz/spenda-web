@@ -19,7 +19,7 @@ class GenerateCredential {
         $tanggal_lahir = Carbon::parse($model->tanggal_lahir)->format('d-m-Y');
         $password = str_replace('-', '', $tanggal_lahir);
 
-        // $user->password = bcrypt($password);
+        // generate untuk password murid
         $user->password = bcrypt('user123');
 
         $user->save();
@@ -33,6 +33,7 @@ class GenerateCredential {
         $admin->nama = $model->nama;
         $admin->email = $model->email;
 
+        // generate untuk password guru
         if($customPassword !== null) {
             $admin->password = bcrypt('guru123');
         } else {

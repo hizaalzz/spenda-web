@@ -7,6 +7,7 @@ use App\Models\Sesi;
 
 class ActiveStatusHelper {
 
+    //aktivasi jadwal
     public static function getActiveJadwal($kelas = null) 
     {
         $jadwal = new Jadwal();
@@ -14,6 +15,7 @@ class ActiveStatusHelper {
         return $jadwal->getActiveJadwal($kelas ?? auth()->user()->murid->kelas_id)->first();
     }
 
+    //murid session
     public static function getMuridSession($murid = null) 
     {
         $sesi = new Sesi();
@@ -21,6 +23,7 @@ class ActiveStatusHelper {
         return $sesi->getMySession($murid ?? auth()->user()->murid_id)->first();
     }
 
+    //generate token untuk ujian
     public static function generateToken($length = 5)
     {
         $characters = '0123456789ABCDEFGHIJKLMNOPQRSUVWXYZ';

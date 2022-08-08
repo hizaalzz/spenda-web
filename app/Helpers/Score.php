@@ -4,7 +4,7 @@ namespace App\Helpers;
 
 use App\Models\Jawaban;
 
-
+//perhitungan soal
 class Score {
     static $jenisSoal = [
         'pilihanganda' => 1,

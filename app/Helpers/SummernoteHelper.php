@@ -6,6 +6,7 @@ use Purifier;
 use DOMDocument;
 use Carbon\Carbon;
 
+// teks editor untuk form soal
 class SummernoteHelper {
     public static function saveContent($content, $contentType = null) {
 

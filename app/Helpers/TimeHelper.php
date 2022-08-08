@@ -4,6 +4,7 @@ namespace App\Helpers;
 
 use Carbon\Carbon;
 
+//pengaturan waktu
 class TimeHelper {
     public static function isPassed($timeValue) 
     {

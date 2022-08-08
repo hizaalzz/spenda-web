@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Storage;
 
 class HandleFile {
 
+    //upload file
     public static function upload($file, $path) 
     {
         $filename = Self::generateFileName($file);
