@@ -19,21 +19,21 @@ class JurusanSeeder extends Seeder
         $jurusan1->kode_tingkat = 'VII';
         $jurusan1->nama = 'VII';
         $jurusan1->save();
-        $jurusan1->matapelajaran()->attach([1,2,3,4,5,6,7,8]);
+        $jurusan1->matapelajaran()->attach([1,2,3,4,5,6,7,8,9,10]);
     
 
         $jurusan2 = new Jurusan();
         $jurusan2->kode_tingkat = 'VIII';
         $jurusan2->nama = 'VIII';
         $jurusan2->save();
-        $jurusan2->matapelajaran()->attach([1,2,3,4,5,6,7,8]);
+        $jurusan2->matapelajaran()->attach([1,2,3,4,5,6,7,8,9,10]);
         
 
         $jurusan3 = new Jurusan();
         $jurusan3->kode_tingkat = 'IX';
         $jurusan3->nama = 'IX';
         $jurusan3->save();
-        $jurusan3->matapelajaran()->attach([1,2,3,4,5,6,7,8]);
+        $jurusan3->matapelajaran()->attach([1,2,3,4,5,6,7,8,9,10]);
         
     }
 }

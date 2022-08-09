@@ -24,6 +24,8 @@ class MatapelajaranSeeder extends Seeder
             ['nama' => 'PKN'],
             ['nama' => 'IPA'],
             ['nama' => 'IPS'],
+            ['nama' => 'Agama'],
+            ['nama' => 'BK'],
             
             
         ];
