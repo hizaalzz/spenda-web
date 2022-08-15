@@ -33,6 +33,14 @@
                     <label for="jurusan_id">Tingkat Kelas</label>
                     {!! Form::select('jurusan_id', $jurusan, null, ['class' => 'form-control', 'required']) !!}
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="tahun">Tahun Soal <small class="text-danger"></small></label>
+                            {!! Form::text('tahun', null, ['class' => 'form-control', 'placeholder' => 'Tahun Soal', 'required']) !!}
+                        </div>
+                    </div>
+                </div>
                 @if(auth()->user()->hasRole('admin'))
                     <div class="form-group">
                         <label for="guru_id">Guru</label>

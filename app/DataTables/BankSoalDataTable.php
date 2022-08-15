@@ -40,6 +40,8 @@ class BankSoalDataTable extends DataTable
                 return $item->matapelajaran->nama;
             })->addColumn('tingkat', function($item) {
                 return $item->jurusan->nama;
+            // })->addColumn('tahun', function($item) {
+            //     return $item->tahun->nama;
             })->addColumn('guru', function($item) {
                 return $item->guru->nama;
             })->editColumn('opsi_pg', function($item) {
@@ -56,7 +58,7 @@ class BankSoalDataTable extends DataTable
                     return $badge . 'A-E' . $div;
                 }
 
-            })->rawColumns(['opsi_pg', 'level', 'aksi']);
+            })->rawColumns(['opsi_pg', 'level', 'tahun', 'aksi']);
     }
 
     /**
@@ -103,6 +105,7 @@ class BankSoalDataTable extends DataTable
             Column::make('opsi_pg'),
             Column::make('matapelajaran'),
             Column::make('tingkat'),
+            Column::make('tahun'),
             Column::make('guru'),
             Column::make('level'),
             Column::make('status'),

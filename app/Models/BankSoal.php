@@ -14,7 +14,7 @@ class BankSoal extends Model
 
     protected static $propertyLogsToShow = 'id';
 
-    protected $fillable = ['level_id', 'matapelajaran_id', 'jurusan_id', 'guru_id', 'opsi_pg', 'status'];
+    protected $fillable = ['level_id', 'matapelajaran_id', 'jurusan_id', 'guru_id', 'opsi_pg', 'tahun', 'status'];
 
     public function jadwal() 
     {

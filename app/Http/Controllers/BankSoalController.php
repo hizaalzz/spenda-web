@@ -78,6 +78,7 @@ class BankSoalController extends Controller
             'opsi_pg' => $request->opsi_pg,
             'matapelajaran_id' => $request->matapelajaran_id,
             'jurusan_id' => $request->jurusan_id,
+            'tahun' => $request->tahun,
             'guru_id' => $request->guru_id,
             'level_id' => $request->level_id,
             'status' => $request->status

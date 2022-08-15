@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('bank_soal', function (Blueprint $table) {
             $table->id();
             $table->enum('opsi_pg', [1, 2, 3, 4, 5])->nullable();
+            $table->string('tahun')->nullable();
             $table->foreignId('level_id')->constrained('levels');
             $table->foreignId('jurusan_id')->constrained('jurusan');
             $table->foreignId('matapelajaran_id')->constrained('matapelajaran');
