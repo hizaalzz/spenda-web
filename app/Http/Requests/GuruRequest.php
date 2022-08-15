@@ -43,7 +43,7 @@ class GuruRequest extends FormRequest
 
             case 'PUT': {
                 return [
-                    'nama' => ['required','regex:/^[a-zA-Z0-9 ]*$/u','min:3'],
+                    'nama' => ['required','min:3'],
                     'email' => 'required',
                     'jenis_kelamin' => 'required|in:L,P',
                     'tanggal_lahir' => ['date_format:Y-m-d', new DateRule],
@@ -62,7 +62,6 @@ class GuruRequest extends FormRequest
         return [
             'nama.min' => 'Nama harus memiliki minimal 2 karakter',
             'nama.required' => 'Nama belum diisi',
-            'nama.regex' => 'Nama guru tidak boleh terdapat simbol',
             'email.unique' => 'Email sudah digunakan',
             'nuptk.unique' => 'NUPTK tidak boleh sama',
             'fotoguru.image' => 'File foto tidak valid. foto harus berupa file gambar',

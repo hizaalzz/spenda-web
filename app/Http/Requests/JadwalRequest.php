@@ -45,7 +45,7 @@ class JadwalRequest extends FormRequest
 
             case 'PUT': {
                 return [
-                    'nama' => ['required','max:50','min:2','regex:/^[a-zA-Z0-9 ]*$/u'],
+                    'nama' => ['required','max:50','min:2'],
                     'tanggal' => 'required|date',
                     'kelas_id' => ['required', new DateNotConflictRule($this->tanggal, $this->route('jadwal'))], 
                     'matapelajaran_id' => 'required',
@@ -64,7 +64,6 @@ class JadwalRequest extends FormRequest
     public function messages()
     {
         return [
-            'nama.regex' => 'Nama jadwal tidak boleh mengandung simbol',
             'tanggal_expire.after_or_equal' => 'Tanggal expire harus lebih besar atau sama dengan tanggal mulai',
         ];
     }

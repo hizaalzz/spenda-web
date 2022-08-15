@@ -24,14 +24,13 @@ class PaketRequest extends FormRequest
     public function rules()
     {
         return [
-            'kode_soal' => ['required','regex:/^[a-zA-Z0-9 ]*$/u']
+            'kode_soal' => ['required']
         ];
     }
 
     public function messages()
     {
         return [
-            'kode_soal.regex' => 'Kode soal tidak boleh terdapat simbol.',
             'kode_soal.required' => 'Kode soal belum diisi'
         ];
     }
