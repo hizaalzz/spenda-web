@@ -36,8 +36,8 @@
         </ul>
         @if(Request::is('ujian'))
         <button class="px-3 py-1 mr-2 bg-blue-500 text-white rounded shadow inline-flex items-center menu text-sm hover:bg-blue-400 focus:outline-none">
-            <i class="fas fa-bars mr-2 btn-icon"></i>
-            Daftar Soal
+            {{-- <i class="fas fa-bars mr-2 btn-icon"></i> --}}
+            {{-- Daftar Soal --}}
         </button>
         @endif
     </div>
