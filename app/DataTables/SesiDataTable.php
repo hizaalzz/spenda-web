@@ -62,8 +62,7 @@ class SesiDataTable extends DataTable
     {
         $buttons = [
             Button::make('export'),
-            Button::make('print'),
-            Button::make('reload')
+            Button::make('print')
         ];
 
         if(auth('admin')->user()->can('create', Sesi::class)) {

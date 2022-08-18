@@ -33,7 +33,7 @@
                     {!! Form::select('jenis', ['' => 'Pilih Peruntukkan', 'guru' => 'Guru', 'murid' => 'Murid', 'keduanya' => 'Keduanya'], '', ['class' => 'form-control', 'required']) !!}
                 </div>
                 <div class="text-center">
-                    {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
+                    {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
                 </div>
                 {!! Form::close() !!}
             </div>

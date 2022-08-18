@@ -63,10 +63,7 @@ class AdminDataTable extends DataTable
                     ->columns($this->getColumns())
                     ->minifiedAjax()
                     ->dom('lBfrtip')
-                    ->orderBy(0)
-                    ->buttons(
-                        Button::make('reload')
-                    );
+                    ->orderBy(0);
     }
 
     /**

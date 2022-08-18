@@ -83,7 +83,6 @@ class MuridDataTable extends DataTable
         $buttons = [
             Button::make('export'),
             Button::make('print'),
-            Button::make('reload')
         ];
 
         if(auth('admin')->user()->can('create', Murid::class)) 

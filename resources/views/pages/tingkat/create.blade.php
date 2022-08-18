@@ -47,7 +47,7 @@
                     </table>
                 </div>
                 <div class="text-center mt-2">
-                    {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
+                    {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
                 </div>
                 {!! Form::close() !!}
             </div>

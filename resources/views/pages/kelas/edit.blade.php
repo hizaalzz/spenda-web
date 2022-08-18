@@ -29,7 +29,7 @@
                     {!! Form::select('jurusan_id', $jurusan, null, ['class' => 'form-control', 'required']) !!}
                 </div>
                 <div class="text-center">
-                    {!! Form::submit('Submit', ['class' => 'btn btn-primary mt-2']) !!}
+                    {!! Form::submit('Simpan', ['class' => 'btn btn-primary mt-2']) !!}
                 </div>
                 {!! Form::close() !!}
             </div>

@@ -41,7 +41,7 @@
                     {!! Form::select('ruangan_id', $ruangan, null, ['class' => 'form-control', 'required']) !!}
                 </div>
                 <div class="text-center">
-                    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
+                    {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
                 </div>
                 {!! Form::close() !!}
             </div>

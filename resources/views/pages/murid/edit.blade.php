@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
+                    {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
                 </div>
                 {!! Form::close() !!}
             </div>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="form-group">
                     <div class="text-center">
-                        {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
+                        {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
                     </div>
                 </div>
                 {!! Form::close() !!}

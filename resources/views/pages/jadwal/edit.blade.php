@@ -81,7 +81,7 @@
                     <span class="text-muted text-sm">Dapat dikosongkan salah satu apabila tidak terdapat soal PG ataupun Essay</span>
                 </div>
                 <div class="text-center">
-                    {!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
+                    {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
                 </div>
                 {!! Form::close() !!}
             </div>

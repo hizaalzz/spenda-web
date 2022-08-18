@@ -54,7 +54,7 @@
                 </div>
                 {!! Form::input('button', 'random', 'Pilih satu secara acak', ['class' => 'btn btn-secondary', 'id' => 'btn-acak']) !!}
                 <div class="text-center">
-                    {!! Form::submit('Submit', ['class' => 'btn btn-primary mt-2']) !!}
+                    {!! Form::submit('Simpan', ['class' => 'btn btn-primary mt-2']) !!}
                 </div>
             </div>
         </div>
